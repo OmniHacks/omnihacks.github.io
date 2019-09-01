@@ -112,7 +112,7 @@ body {
 #info {
 	position: relative;
 	top: 115vh;
-	text-align: left;
+	text-align: center;
 	padding: 15vh 10%;
 	font-size: 30px;
 }

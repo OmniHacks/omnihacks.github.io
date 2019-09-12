@@ -1,443 +1,518 @@
 <!DOCTYPE html>
 <html>
-<title>OMNIHACKS</title>
+<title>OmniHacks</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <link rel="icon" href="images/logo.png">
 <link href="https://fonts.googleapis.com/css?family=Quicksand:300,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
-	<body>
-		<a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=black" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-black.svg" alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
-	<div id="logo">
-		<img src="images/logo.png">
-	</div>
-		<div id="header">
-			<h1 id="title">OmniHacks</h1>
-			<h3>May 18 - 19, 2019, 42, Fremont, CA</h3>
-			<a id="scrolltoform">SIGN UP TODAY </a>
-			<!--<div class="arrowright" id="infoarrow"><i class="fas fa-arrow-right"></i></div>-->
-		</div>
-		<div id="headermask">
-		</div>
-		<div id="headerimg">
-		</div>
-		<div id="info">
-			<h1>On Saturday, May 18, 2019, 200 students from around the Bay Area will gather to conceive innovative products and realize their potential to solve some of the biggest societal problems.</h1>
-			<!--<p>At OmniHacks, students will work in groups and go through every step of creating a product, from solving a problem to pitching a solution. The OmniHacks team has worked to construct the optimal environment in which coders with and without experience can cultivate their invention: free food and swag, fun and games, workshops, new connections, and prizes. Don’t miss out!</p>-->
-		</div>
-		<div id="faq">
-			<h1>Frequently Asked Questions</h1>
-			<div class="row faqsec">
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What is a hackathon?</h3>
-					<h4 class="faqa">
-					A hackathon is a long event (typically 24 hours) that allows students like you to come up with a new product from scratch. This includes the creation and marketing of the product. Be prepared to learn a lot and have fun!
-					</h4>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">Who can attend OmniHacks?</h3>
-					<h4 class="faqa">Any high schooler can attend OmniHacks. If you’ve already completed high school, you can’t participate but you can still help mentor others.</h4>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What if I don’t know how to code?</h3>
-					<h4 class="faqa">Don’t worry! At OmniHacks, we will have workshops catering to all levels of hackers and we encourage you to partake in these workshops to get a jumpstart before you start to develop your product.</h4>
-				</div>
-			</div>
-			<div class="row faqsec">
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">How much does it cost to attend?</h3>
-					<h4 class="faqa">Thanks to our generous sponsors, this hackathon is free of cost. That includes food, drinks, snacks and swag. </h4>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What are the sizes of teams?</h3>
-					<h4 class="faqa">Each team may have a maximum of 4 members. We strongly recommend each team to have at least 2 members, however teams with just 1 member are fine as well.</h4>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What if I don’t have a team?</h3>
-					<h4 class="faqa">Don’t worry! We will help you help form groups in the Team Formation event at 8:15 on Saturday morning.</h4>
-				</div>
-			</div>
-			<div class="row faqsec">
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What should I bring?</h3>
-					<h4 class="faqa">A Student ID, Waivers, Laptop, Charger, Power strips and toiletries. If you plan on doing a hardware hack, remember to bring your device as well.</h4>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What can my team build?</h3>
-					<h4 class="faqa">Any tech product. Hardware, Software or even a combination of both. Remember, that there will be a theme and different categories for prizes. Projects will be judged on their Impact, Usability, Creativity, and Complexity. </h4>
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">What is the theme?</h3>
-					<h4 class="faqa">Find out at the event!</h4>
-				</div>
-			</div>
-			<div class="row faqsec">
-				<div class="col-sm-4">
-				</div>
-				<div class="col-sm-4">
-					<h3 class="faqq slideanim">Will there be prizes?</h3>
-					<h4 class="faqa">Yes! Stay tuned to find out soon.</h4>
-				</div>
-				<div class="col-sm-4">
-				</div>
-			</div>
-		</div>
-		<div id="schedule">
-			<h1>Schedule</h1>
-			<div class="row">
-				<div class="col-sm-6">
-					<h3>Saturday</h3>
-					<table class="table">
-					  <thead class="thead-dark">
-					    <tr>
-					      <th>Time</th>
-					      <th>Event</th>
-					      <th>Location</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					    <tr>
-					      <td>8:00 AM</td>
-					      <td>Doors Open</td>
-					      <td>TBD</td>
-					    </tr>
-					    <tr>
-					      <td>8:15 AM</td>
-					      <td>Sponsor Fair & Team Formation begins</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>9:00 AM</td>
-					      <td>Opening Ceremony</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>10:00 AM</td>
-					      <td>Hacking Begins</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>10:15 AM - 11:15 AM</td>
-					      <td> How to Brainstorm a Project Idea Workshop, courtesy of DeltaHacks Institute</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>12:30 PM</td>
-					      <td>Lunch</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>1:30 PM - 2:30 PM</td>
-					      <td>Web Development Workshop, courtesy of DeltaHacks Institute</td>
-					      <td>TBD</td>
-					    </tr>
-					    <tr>
-					      <td>3:00 PM - 4:30 PM</td>
-					      <td>Machine Learning with Python Workshop, courtesy of DeltaHacks Institute</td>
-					      <td>TBD</td>
-					    </tr>
-					    <tr>
-					      <td>9 PM</td>
-					      <td>Dinner</td>
-					      <td>TBD</td>
-					    </tr>
-					  </tbody>
-					</table>
-				</div>
-				<div class="col-sm-6">
-					<h3>Sunday</h3>
-					<table class="table">
-					  <thead class="thead-dark">
-					    <tr>
-					      <th>Time</th>
-					      <th>Event</th>
-					      <th>Location</th>
-					    </tr>
-					  </thead>
-					  <tbody>
-					    <tr>
-					      <td>12:30 AM</td>
-					      <td>Midnight Snack</td>
-					      <td>TBD</td>
-					    </tr>
-					    <tr>
-					      <td>1:00 AM</td>
-					      <td>Cup Stacking Competition</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>7:00 AM</td>
-					      <td>Breakfast</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>9:15 AM</td>
-					      <td>Projects Due/Judging Begins</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>10:30 AM</td>
-					      <td>Top 5 Hacks Presentations</td>
-					      <td>TBD</td>
-					    </tr>
-					     <tr>
-					      <td>11:00 AM</td>
-					      <td>Closing Ceremony</td>
-					      <td>TBD</td>
-					    </tr>
-					  </tbody>
-					</table>
-				</div>
-			</div>
-		</div>	
-		<div id="sponsors">
-			<h1>Partners</h1>
-			<div class="row">
-				<div class="col-sm-2">	
-				</div>
-				<div class="col-sm-8">
-					<a href="http://defhacks.io/"><img src="images/defhacks.png"></a>
-				</div>
-				<div class="col-sm-2">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-2">
-				</div>
-				<div class="col-sm-8">
-					<a href="https://mlh.io/"><img src="images/mlh.png"></a>
-				</div>
-				<div class="col-sm-2">
-				</div>
-			</div>
-			<h1>Sponsors</h1>
-			<div class="row">
-				<div class="col-sm-5">
-					<img src="images/linode.png">
-				</div>
-				<div class="col-sm-1">
-				</div>
-				<div class="col-sm-6">
-					<img src="images/cadence.png">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-				</div>
-				<div class="col-sm-6">
-					<img src="images/balsamiq.png">
-				</div>
-				<div class="col-sm-3">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<img src="images/wolfram.png">
-				</div>
-				<div class="col-sm-3">
-					<img src="images/gitkraken.png">
-				</div>
-				<div class="col-sm-5">
-					<img src="images/sketch.png">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					<img src="images/jetbrains.png">
-				</div>
-				<div class="col-sm-5">
-					<img src="images/stickermule.png">
-				</div>
-				<div class="col-sm-4">
-					<img src="images/codeHS.png">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<img src="images/quizlet.jpeg">
-				</div>
-				<div class="col-sm-4">
-					<img src="images/ring.png">
-				</div>
-			</div>
-			<p id="interested">Interested in sponsoring OmniHacks? Reach out to the sponsorship team at sponsor@omnihacks.tech</p>
-		</div>
-		<div id="organizers">
-			<h1>Organizers</h1>
-			<div class="row">
-				<div class="col-sm-3">
-					<img src="images/gautham.jpg">
-					<div class="descrip">
-						<h2>Gautham Raghupathi</h3>
-						<h3>Lead Director</h3>
-						<div class="more" id="gautham">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="https://github.com/gurugautham"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/gauthamar11/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/rohan.jpg">
-					<div class="descrip">
-						<h2>Rohan Angajala</h3>
-						<h3>Director of Operations</h3>
-						<div class="more" id="rohan">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="github.com"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/rohan-angajala-9b836b141/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/tom.jpg">
-					<div class="descrip">
-						<h2>Tom Zhang</h3>
-						<h3>Director of Tech</h3>
-						<div class="more" id="tom">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="https://github.com/zhangtom54321"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/tom-zhang/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/sam.jpg">
-					<div class="descrip">
-						<h2>Sam Yang</h3>
-						<h3>Webmaster</h3>
-						<div class="more" id="sam">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="https://github.com/samuely4ng"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/samuel-yang-5455b9161/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-3">
-					<img src="images/sarthak.png">
-					<div class="descrip">
-						<h2>Sarthak Kamat</h3>
-						<h3>Sponsorships</h3>
-						<div class="more" id="sarthak">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="https://github.com/samuely4ng"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/samuel-yang-5455b9161/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/default.jpeg">
-					<div class="descrip">
-						<h2>Chirag</h3>
-						<h3>Finance</h3>
-						<div class="more" id="chirag">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="https://github.com/samuely4ng"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/samuel-yang-5455b9161/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<img src="images/chaitra.png">
-					<div class="descrip">
-						<h2>Chaitra Raghupathi</h3>
-						<h3>Designer</h3>
-						<div class="more" id="chaitra">
-							<p class="plus">+</p>
-							<div class="showmore">
-								<a href="https://github.com/samuely4ng"><i class ="fab fa-github"></i></a>
-								<a href="https://www.linkedin.com/in/samuel-yang-5455b9161/"><i class ="fab fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<h2 id="camphead">Campus Ambassadors</h2>
-			<div class="row">
-				<div class="col-sm-2 campamb">
-					<img src="images/default.jpeg">
-					<h4>Firstname Lastname</h4>
-				</div>
-				<div class="col-sm-2 campamb">
-					<img src="images/default.jpeg">
-					<h4>Firstname Lastname</h4>
-				</div>
-				<div class="col-sm-2 campamb">
-					<img src="images/default.jpeg">
-					<h4>Firstname Lastname</h4>
-				</div>
-				<div class="col-sm-2 campamb">
-					<img src="images/default.jpeg">
-					<h4>Firstname Lastname</h4>
-				</div>
-				<div class="col-sm-2 campamb">
-					<img src="images/default.jpeg">
-					<h4>Firstname Lastname</h4>
-				</div>
-				<div class="col-sm-2 campamb">
-					<img src="images/default.jpeg">
-					<h4>Firstname Lastname</h4>
-				</div>
-			</div>
-			<p id="interested">Want to be part of the team? Reach out to team@omnihacks.tech</p>
-		</div>
-		<div id="signupform">
-			<div class="typeform-widget" data-url="https://rohanangajala.typeform.com/to/z9cdy3" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=z9cdy3&utm_source=typeform.com-13316638-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-		</div>
-		<div id="footer">
-			<div class="row">
-				<div class="col-sm-3"></div>
-				<div class="col-sm-1">
-					<img src="images/deltahacksinstitute.png">
-				</div>
-				<div class="col-sm-1"></div>
-				<div class="col-sm-4">
-					<img src="images/hackclubbank.png">
-				</div>
-				<div class="col-sm-3"></div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-sm-4">
-				</div>
-				<div class="col-sm-1">
-					<a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
-				</div>
-				<div class="col-sm-2">
-					<a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
-				</div>
-				<div class="col-sm-1">
-					<a href="mailto:team@omnihacks.tech"><i class="fas fa-envelope"></i></a>
-				</div>
-				<div class="col-sm-4">
-				</div>
-			</div>
-		</div>
-	<script src="index.js">
+<body>
+  <div id="logo">
+    <img src="images/logo.png">
+  </div>
+  <div id="header">
+    <h1 id="title">OmniHacks</h1>
+    <h3>September 21 - 22, 2019  @Holberton SF, CA</h3>
+    <a class="typeform-share button" href="https://forms.gle/QjqKmyAxkkSqqEbR9" data-mode="popup"
+      style="display:inline-block;text-decoration:none;background-color:#267DDD;color:white;cursor:pointer;font-family: Quicksand,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+      target="_blank">REGISTER TODAY</a>
+    <script>
+      (function() {
+        var qs, js, q, s, d = document,
+          gi = d.getElementById,
+          ce = d.createElement,
+          gt = d.getElementsByTagName,
+          id = "typef_orm_share",
+          b = "https://embed.typeform.com/";
+        if (!gi.call(d, id)) {
+          js = ce.call(d, "script");
+          js.id = id;
+          js.src = b + "embed.js";
+          q = gt.call(d, "script")[0];
+          q.parentNode.insertBefore(js, q)
+        }
+      })()
     </script>
+  </div>
+  <div id="headermask">
+  </div>
+  <div id="headerimg">
+  </div>
+  <div id="info">
+    <h1>This September, 200 high school students from the Bay Area will gather at OmniHacks to conceive innovative products and realize their potential in solving some of the biggest societal problems.</h1>
+  </div>
+  </div>
+  </div>
+
+  </div>
+  <div id="faq">
+    <h1>Frequently Asked Questions</h1>
+    <div class="row faqsec">
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">What is a hackathon?</h3>
+        <h4 class="faqa">A hackathon is a 24 hour long event where students work together to create a project from scratch. Get ready to learn a lot while having fun!
+        </h4>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">What if I don’t know how to code?</h3>
+        <h4 class="faqa">There will be workshops for all skill levels, and we encourage you to partake in these workshops to get a jumpstart before you start to develop your project.</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">What can my team build?</h3>
+        <h4 class="faqa">Anything realistic that you can imagine! Remember, there will be a theme and different categories for prizes. Projects will be judged on their Impact, Usability, Creativity, and Complexity.
+        </h4>
+      </div>
+    </div>
+
+    <div class="row faqsec">
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">What should I bring?</h3>
+        <h4 class="faqa">A valid school ID, signed waivers, a laptop, charger(s), and toiletries. Remember to bring your hardware as well.</h4>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">Who can attend OmniHacks?</h3>
+        <h4 class="faqa">All high school students are welcome! No prior experience is necessary.
+      </div>
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">How much does it cost to attend?</h3>
+        <h4 class="faqa">Thanks to our sponsors, OmniHacks absolutely FREE!</h4>
+      </div>
+    </div>
+
+    <div class="row faqsec">
+      <div class="col-sm-4">
+      </div>
+      <div class="col-sm-4">
+        <h3 class="faqq slideanim">How do I get there?</h3>
+        <div id="map"></div>
+        <h4 class="faqa">
+          <a href="https://www.google.com/maps/dir//Holberton,+972+Mission+St,+San+Francisco,+CA+94103/@37.7815247,-122.4782478,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x808580622573b699:0xaded7ddeaaf9319c!2m2!1d-122.4082078!2d37.7815454!3e0">Holberton
+          </a> is 5 minutes away from the Powell Street BART station</h4>
+      </div>
+    </div>
+  </div>
+  <div id="schedule">
+    <h1>Schedule</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Saturday</h3>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>9:00 AM</td>
+              <td>Doors Open</td>
+              <td>Holberton SF</td>
+            </tr>
+            <tr>
+              <td>9:15 AM</td>
+              <td>Sponsor Fair & Team Formation begins</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>10:00 AM</td>
+              <td>Opening Ceremony</td>
+              <td>Main Stage</td>
+            </tr>
+            <tr>
+              <td>11:00 AM</td>
+              <td>Hacking Begins</td>
+              <td>Everywhere</td>
+            </tr>
+            <tr>
+              <td>11:15 AM - 12:15 PM</td>
+              <td> How to Brainstorm a Project Idea Workshop</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>12:30 PM</td>
+              <td>Lunch</td>
+              <td>Kitchen</td>
+            </tr>
+            <tr>
+              <td>1:30 PM - 2:30 PM</td>
+              <td>Web Development Workshop</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>3:00 PM - 4:30 PM</td>
+              <td>Machine Learning with Python Workshop</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>9 PM</td>
+              <td>Dinner</td>
+              <td>Kitchen</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-6">
+        <h3>Sunday</h3>
+        <table class="table">
+          <thead class="thead-dark">
+            <tr>
+              <th>Time</th>
+              <th>Event</th>
+              <th>Location</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>12:30 AM</td>
+              <td>Midnight Snack</td>
+              <td>Kitchen</td>
+            </tr>
+            <tr>
+              <td>1:00 AM</td>
+              <td>Cup Stacking Competition</td>
+              <td>TBD</td>
+            </tr>
+            <tr>
+              <td>7:00 AM</td>
+              <td>Breakfast</td>
+              <td>Kitchen</td>
+            </tr>
+            <tr>
+              <td>9:15 AM</td>
+              <td>Projects Submissions</td>
+              <td>Everywhere</td>
+            </tr>
+            <tr>
+              <td>10:30 AM</td>
+              <td>Top 5 Hacks Presentations</td>
+              <td>Main Stage</td>
+            </tr>
+            <tr>
+              <td>11:00 AM</td>
+              <td>Closing Ceremony</td>
+              <td>Main Stage</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="sponsors">
+    <h1>Sponsors</h1>
+    <div class="row">
+      <div class="col-sm-5">
+        <a href="https://www.balsamiq.com/"><img src="images/balsamiq.png"></a>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div class="col-sm-6">
+        <a href="https://www.cadence.com/"><img src="images/cadence.png"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://github.com/"><img src="images/github.png"></a>
+      </div>
+      <div class="col-sm-5">
+        <a href="https://linode.com/"><img src="images/linode.png"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://www.empowerly.com/"><img src="images/empowerly.png"></a>
+      </div>
+      <div class="col-sm-6">
+        <a href="https://www.holbertonschool.com/"><img src="images/holberton.png"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-2">
+        <a href="https://deltahacksinstitute.tech/"><img src="images/deltahacksinstitute.png"></a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://www.gitkraken.com/"><img src="images/gitkraken.png"></a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://www.jetbrains.com/"><img src="images/jetbrains.png"></a>
+      </div>
+      <div class="col-sm-3">
+        <a href="https://www.ring.com/"><img src="images/ring.png"></a>
+      </div>
+      <div class="col-sm-3">
+        <a href="https://www.codehs.com/"><img src="images/codeHS.png"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <a href="http://hackp.ac/mlh-stickermule-hackathons"><img src="images/stickermule.png"></a>
+      </div>
+      <div class="col-sm-3">
+        <a href="https://sketch.com/"><img src="images/sketch.png"></a>
+      </div>
+      <div class="col-sm-3">
+        <a href="https://quizlet.com/"><img src="images/quizlet.jpeg"></a>
+      </div>
+      <div class="col-sm-3">
+        <a href="https://www.wolfram.com/language/"><img src="images/wolfram.png"></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="http://www.selectq.io"><img src="images/selectq.png"></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://www.makeschool.com/"><img src="images/makeschool.png"></a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://hackclub.com/bank/"><img src="images/hackclubbank.png"></a>
+      </div>
+    </div>
+    <p id="interested">Interested in sponsoring OmniHacks? Reach out to the sponsorship team at <a href="mailto:sponsor@omnihacks.tech">sponsor@omnihacks.tech</a></p>
+  </div>
+
+  <div id="organizers">
+    <h1>Our Team</h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="images/gautham.jpg">
+        <div class="descrip">
+          <h2>Gautham Raghupathi</h3>
+            <h3>Lead Director</h3>
+            <div class="more" id="gautham">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://github.com/gurugautham"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gurugautham/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/rohan.jpg">
+        <div class="descrip">
+          <h2>Rohan Angajala</h3>
+            <h3>Director of Operations</h3>
+            <div class="more" id="rohan">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="github.com"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rohan-angajala-9b836b141/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/forrest.jpg">
+        <div class="descrip">
+          <h2>Forrest Leung</h3>
+            <h3>Director of Outreach</h3>
+            <div class="more" id="forrest">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://www.github.com/fleung48"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/fleung48"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/tom.jpg">
+        <div class="descrip">
+          <h2>Tom Zhang</h3>
+            <h3>Director of Tech</h3>
+            <div class="more" id="tom">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://github.com/zhangtom54321"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tom-zhang/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="images/sarthak.jpg">
+        <div class="descrip">
+          <h2>Sarthak Kamat</h3>
+            <h3>Sponsorship</h3>
+            <div class="more" id="sarthak">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://github.com/sartk"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sarthakkamat/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/soumil.png">
+        <div class="descrip">
+          <h2>Soumil Gupta</h3>
+            <h3>Sponsorship</h3>
+            <div class="more" id="soumil">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://github.com/Soumilsg"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/chirag.jpeg">
+        <div class="descrip">
+          <h2>Chirag Mehta</h3>
+            <h3>Finance</h3>
+            <div class="more" id="chirag">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://github.com/cmehta413"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chirag-mehta-275044147/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <img src="images/kevinchoe.jpg">
+        <div class="descrip">
+          <h2>Kevin Choe</h3>
+            <h3>Operations</h3>
+            <div class="more" id="kevin">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://www.linkedin.com/in/kevinchoe/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3">
+        <img src="images/chaitra.png">
+        <div class="descrip">
+          <h2>Chaitra Raghupathi</h3>
+            <h3>Designer</h3>
+            <div class="more" id="chaitra">
+              <p class="plus">+</p>
+              <div class="showmore">
+                <a href="https://github.com/craghupathi"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/chaitra-raghupathi-29a169178/"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+        </div>
+      </div>
+    <div class="col-sm-3">
+      <img src="images/sam.jpg">
+      <div class="descrip">
+        <h2>Sam Yang</h3>
+          <h3>Web Designer</h3>
+          <div class="more" id="sam">
+            <p class="plus">+</p>
+            <div class="showmore">
+              <a href="https://github.com/samuely4ng"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/samuel-yang-5455b9161/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <h2 id="camphead">Campus Ambassadors</h2>
+  <div class="row">
+
+    <div class="col-sm-2 campamb">
+      <img src="images/alicia.jpg">
+      <h4>Alicia Chen</h4>
+      <h5>American High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/rayland.jpg">
+      <h4>Rayland Ho</h4>
+      <h5>Basis Independent Silicon Valley</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/aryan.png">
+      <h4>Aryan Kumar</h4>
+      <h5>Cupertino High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/kevinchu.jpg">
+      <h4>Kevin Chu</h4>
+      <h5>Homestead High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/leo.jpg">
+      <h4>Leo Lin</h4>
+      <h5>Los Altos High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/alexander.jpg">
+      <h4>Alexander Peng</h4>
+      <h5>Lowell High School</h5>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2 campamb">
+      <img src="images/eric.jpg">
+      <h4>Eric Yang</h4>
+      <h5>Lynbrook High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/neeraj.jpg">
+      <h4>Neeraj Rattehalli</h4>
+      <h5>Menlo Atherton High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/william.jpg">
+      <h4>William Hu</h4>
+      <h5>Northwood High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/justin.jpg">
+      <h4>Justin Pong</h4>
+      <h5>Prospect High School</h5>
+    </div>
+    <div class="col-sm-2 campamb">
+      <img src="images/tony.jpg">
+      <h4>Tony Jiang</h4>
+      <h5>Saratoga High School</h5>
+    </div>
+  </div>
+
+    <p id="interested">Interested in joining the team? Email us at <a href="mailto:team@omnihacks.tech">team@omnihacks.tech</a></p>
+  </div>
+
+  <div id="footer">
+    <div class="row">
+      <div class="col-sm-4">
+      </div>
+      <div class="col-sm-1">
+        <a href="https://www.facebook.com/omnihacks/"><i class="fab fa-facebook-square"></i></a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="col-sm-1">
+        <a href="mailto:team@omnihacks.tech"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="col-sm-4">
+      </div>
+    </div>
+  </div>
+  <script src="index.js">
+  </script>
+  <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA549bqP5Lv1eFaLPsCTqiQfgazOEQ1v7Q&callback=initMap">
+  </script>
 </body>
 </html>

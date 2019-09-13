@@ -124,13 +124,13 @@ a:hover {
 	top: 115vh;
 	text-align: center;
 	padding: 15vh 10%;
-	font-size: 30px;
 }
 
 #info h1 {
 	font-size: 40px;
 	color: #3BB5DB;
 	padding-bottom: 30px;
+	line-height: 54px;
 }
 
 #map {
@@ -163,7 +163,7 @@ a:hover {
 
 .faqq {
 	padding: 10px 0px;
-	font-size: 26px;
+	font-size: 23px;
 	font-style: italic;
 }
 
@@ -211,7 +211,7 @@ a:hover {
 }
 
 #sponsors {
-	padding: 30vh 44%;
+	padding: 30vh 48%;
 	background-color: white;
 	position: relative;
 	top: 100vh;
@@ -243,6 +243,7 @@ a:hover {
 	font-size: 70px;
 	text-align: center;
 	padding: 30px 0px;
+	text-shadow: 0px 0px 4px #999;
 }
 
 #organizers img {
@@ -383,27 +384,22 @@ a:hover {
 	#logo {
 		width: 70px;
 	}
-
-	#header {
-		padding-top: 25vh;
-	}
-
 	#headermask {
-		width: 250%;
-		margin-left: -75%;
+		width: 340%;
+		margin-left: -120%;
 	}
 
 	#headerimg {
-		width: 250%;
-		margin-left: -75%;
+		width: 340%;
+		margin-left: -120%;
 	}
 
 	#header h1 {
-		font-size: 50px;
+		font-size: 58px;
 	}
 
 	#header h3 {
-		font-size: 24px;
+		font-size: 28px;
 		padding: 0px 5%;
 	}
 
@@ -424,9 +420,9 @@ a:hover {
 	}
 
 	#faq {
-		width: 300%;
-		margin-left: -100%;
-		padding: 25vh 105% 15vh 105%;
+		width: 340%;
+		margin-left: -120%;
+		padding: 25vh 125% 15vh 125%;
 	}
 
 	#faq h1 {
@@ -449,7 +445,7 @@ a:hover {
 	}
 
 	#schedule h1 {
-		font-size: 35px;
+		font-size: 40px;
 		color: white;
 	}
 
@@ -493,7 +489,7 @@ a:hover {
 	}
 
 	#organizers h1, #sponsors h1 {
-		font-size: 35px;
+		font-size: 40px;
 		padding: 20px 0px;
 	}
 
@@ -517,7 +513,7 @@ a:hover {
 	}
 
 	#organizers #camphead {
-		font-size: 35px;
+		font-size: 32px;
 	}
 
 	#organizers h2 {

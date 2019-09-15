@@ -70,13 +70,17 @@ a:hover {
 	right: 0;
 	max-width: 100%;
     overflow-x: hidden;
-	overflow-y: visible;
 	padding: 0;
 	margin: 0;
 }
 
 .box2 {
 	height: auto;
+}
+
+.sponsors {
+	z-index: 90;
+	overflow-x: visible;
 }
 
 #headermask {
@@ -192,11 +196,11 @@ a:hover {
 
 #schedule {
 	padding: 280px 10% 400px 10%;
-	position: relative;
 	margin-top: -170px;
-	z-index: 0;
-	background: linear-gradient(0deg, black, #3BB5DB);
+	background: linear-gradient(0deg, #111, #3BB5DB);
 	text-align: center;
+	position: relative;
+	z-index: 0;
 }
 
 #schedule h1 {
@@ -229,12 +233,13 @@ a:hover {
 #sponsors {
 	padding: 25vh 58% 0px 58%;
 	background-color: white;
-	position: relative;
 	text-align: center;
 	border-radius: 100%;
 	margin-top: -30vh;
 	width: 190%;
 	margin-left: -45%;
+	position: relative;
+	z-index: 90;
 }
 
 #sponsors .row {
@@ -483,9 +488,8 @@ a:hover {
 
 	#sponsors {
 		padding: 15vh 145%;
-		margin-top: -80px;
 		width: 380%;
-		margin: 0 -140%;
+		margin: -15vh 0 0 -140%;
 		z-index: 40;
 	}
 

@@ -136,23 +136,14 @@ a:hover {
 	animation: bounce 1s linear 0s infinite;
 }
 
-#header .typeform-share {
-	font-size: 24px;
-	padding: 10px 40px;
-	transition-duration: 0.2s;
-	border: 2px solid white;
-	color: white;
-	border-radius: 30px;
-	animation: bounce 1s linear 0s infinite;
-}
-
-#header .typeform-share:hover {
+#button:hover {
 	text-decoration: none;
 	background-color: #320E3B;
 	cursor: pointer;
 	transform: scale(1.05);
 	letter-spacing: 2px;
 }
+
 
 #info {
 	position: relative;
